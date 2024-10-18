@@ -8,8 +8,7 @@ def main():
       divnum = 0
       divi = 0
       divdef = 0
-      if num == 1:
-          return "not antiprime"
+     
       for i in range(1, num+1):
           if num % i == 0:
               divnum += 1
