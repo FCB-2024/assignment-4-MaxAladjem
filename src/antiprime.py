@@ -1,3 +1,4 @@
+import sys
 def main():
     
     def antiprimecalc(num):
@@ -16,7 +17,7 @@ def main():
             if divi >= divnum:
                 return "not antiprime"
         return "antiprime"
-    num = int(input("Numero Positivo Entero?"))
+    num = int(sys.argv[1])
     result = antiprimecalc(num)
     return result
 
