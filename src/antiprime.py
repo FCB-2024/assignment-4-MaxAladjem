@@ -18,8 +18,8 @@ def main():
               if i % j == 0:
                   divi += 1
           if divi >= divnum:
-              return "not antiprime"
-      return "antiprime"
+              return "not anti-prime"
+      return "anti-prime"
   num = int(sys.argv[1])
   result = antiprimecalc(num)
   return result
