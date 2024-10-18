@@ -2,6 +2,10 @@
 import sys
 def main():
 
+  num = int(sys.argv[1])
+  result = antiprimecalc(num)
+  return result
+
   def antiprimecalc(num):
       divnum = 0
       divi = 0
